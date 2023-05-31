@@ -6,7 +6,11 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'bebas-neue': ['Bebas Neue', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

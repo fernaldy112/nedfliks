@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string("maturity_rating");
             $table->integer("number_of_seasons");
             $table->enum("type", ["TV_SHOW", "MOVIE"]);
+            $table->string("poster_url");
+            $table->string("jumbotron_image_url")->nullable();
             $table->timestamps();
         });
     }

@@ -7,7 +7,7 @@
     <title>Document</title>
     @vite('resources/css/app.css')
 </head>
-<body class="bg-black">
+<body class="bg-black font-bebas-neue">
     <header class="flex items-center justify-between flex-wrap bg-black sm:p-6 p-4 sticky top-0">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <img src="{{ asset('img/logo.png') }}" alt="Logo" class="sm:w-24 w-16">

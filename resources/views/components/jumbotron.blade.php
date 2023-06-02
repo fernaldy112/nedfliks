@@ -6,8 +6,8 @@
         <p class="mb-8 text-sm font-bold text-gray-300 sm:text-lg lg:text-xl sm:px-16 lg:px-24">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis consequatur labore maxime officia ipsa perferendis, ducimus voluptatem neque voluptates provident natus aliquam accusamus nesciunt officiis sit error dignissimos? Aspernatur, quam?
         </p>
-        <div class="flex flex-col sm:flex-row sm:justify-left sm:px-24">
-            <a href="#" class="hover:text-gray-900 py-3 px-5 text-center text-white font-bold rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 bg-neutral-500/70">
+        <div class="flex flex-row sm:px-16 sm:justify-left lg:px-24">
+            <a href="#" class="hover:text-gray-900 py-3 px-5 text-center text-white font-bold rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-400 bg-neutral-500/70 sm:text-lg text-xs">
                 Learn more
             </a>  
         </div>

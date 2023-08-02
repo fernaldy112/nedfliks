@@ -29,7 +29,7 @@ class DatabaseSeeder extends Seeder
             "maturity_rating" => "PG",
             "number_of_seasons" => 1,
             "type" => "MOVIE",
-            "poster_url" => "https://cdn.shopify.com/s/files/1/0482/3452/8936/products/Kung-Fu-Panda-Poster-Films-Vibez-1630122362_520x.jpg?v=1630122363",
+            "poster_url" => "img/posters/kungfu-panda-1.jpg",
         ]);
 
         DB::table("shows")->insert([
@@ -40,7 +40,7 @@ class DatabaseSeeder extends Seeder
             "maturity_rating" => "PG",
             "number_of_seasons" => 1,
             "type" => "MOVIE",
-            "poster_url" => "https://www.jagatreview.com/wp-content/uploads/2011/08/kung-fu-panda-2-movie-poster-386x600.jpg",
+            "poster_url" => "img/posters/kungfu-panda-2.jpg",
         ]);
         
         DB::table("shows")->insert([
@@ -51,7 +51,7 @@ class DatabaseSeeder extends Seeder
             "maturity_rating" => "PG",
             "number_of_seasons" => 1,
             "type" => "MOVIE",
-            "poster_url" => "https://upload.wikimedia.org/wikipedia/id/e/e6/Kung_Fu_Panda_3_poster.jpg",
+            "poster_url" => "img/posters/kungfu-panda-3.jpg",
         ]);
 
         DB::table("shows")->insert([
@@ -62,7 +62,7 @@ class DatabaseSeeder extends Seeder
             "maturity_rating" => "PG",
             "number_of_seasons" => 1,
             "type" => "MOVIE",
-            "poster_url" => "https://m.media-amazon.com/images/M/MV5BNzJkNWRlYWMtYzBjZC00Yjg4LWEwYmQtMmE0MTNhODU5YTI4XkEyXkFqcGdeQXVyMTA5ODEyNTc5._V1_FMjpg_UX1000_.jpg",
+            "poster_url" => "img/posters/kungfu-panda-4.jpeg",
         ]);
 
         DB::table("tags")->insert([

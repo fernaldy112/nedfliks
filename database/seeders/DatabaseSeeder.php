@@ -23,8 +23,8 @@ class DatabaseSeeder extends Seeder
 
         DB::table("shows")->insert([
             "id" => 1,
-            "title" => "Kungfu Panda 1",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "title" => "Kungfu Panda",
+            "description" => "To everyone's surprise, including his own, Po, an overweight, clumsy panda, is chosen as protector of the Valley of Peace. His suitability will soon be tested as the valley's arch-enemy is on his way.",
             "release_year" => "2008",
             "maturity_rating" => "7+",
             "number_of_seasons" => 1,
@@ -37,7 +37,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 2,
             "title" => "Kungfu Panda 2",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "Po and his friends fight to stop a peacock villain from conquering China with a deadly new weapon, but first the Dragon Warrior must come to terms with his past.",
             "release_year" => "2011",
             "maturity_rating" => "7+",
             "number_of_seasons" => 1,
@@ -50,7 +50,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 3,
             "title" => "Kungfu Panda 3",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "Continuing his 'legendary adventures of awesomeness', Po must face two hugely epic, but different threats: one supernatural and the other a little closer to home.",
             "release_year" => "2016",
             "maturity_rating" => "7+",
             "number_of_seasons" => 1,
@@ -63,7 +63,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 4,
             "title" => "Extreme Job",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "A team of narcotics detectives goes undercover in a fried chicken joint to stake out an organized crime gang. But things take an unexpected turn when the detectives' chicken recipe suddenly transforms the rundown restaurant into the hottest eatery in town.",
             "release_year" => "2019",
             "maturity_rating" => "16+",
             "number_of_seasons" => 1,
@@ -76,7 +76,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 5,
             "title" => "The Murderer",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "When an English man is accused of murdering his Thai in-laws, his wife is the only witness that stands between guilt and freedom.",
             "release_year" => "2023",
             "maturity_rating" => "18+",
             "number_of_seasons" => 1,
@@ -89,7 +89,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 6,
             "title" => "Missing Home",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "A married couple stages their divorce in order to encourage their estranged adult children to return to their hometown.",
             "release_year" => "2022",
             "maturity_rating" => "10+",
             "number_of_seasons" => 1,
@@ -102,7 +102,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 7,
             "title" => "Check the Store Next Door 2",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "In this sequel to the hit comedy drama, Erwin and Natalie must navigate a series of challenges after they decide to get married.",
             "release_year" => "2022",
             "maturity_rating" => "13+",
             "number_of_seasons" => 1,
@@ -115,7 +115,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 8,
             "title" => "The Con-Heartist",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "Ina, whose ex-boyfriend runs off, leaving her in debt, manages to catch on a cunning con artist who tries to con her. But instead of turning him to the police, she hires this con artist to swindle her ex-boyfriend to get revenge.",
             "release_year" => "2020",
             "maturity_rating" => "13+",
             "number_of_seasons" => 1,
@@ -128,7 +128,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 9,
             "title" => "Space Sweepers",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "Set in the year 2092 and follows the crew of a space junk collector ship called The Victory. When they discover a humanoid robot named Dorothy that's known to be a weapon of mass destruction, they get involved in a risky business deal.",
             "release_year" => "2021",
             "maturity_rating" => "18+",
             "number_of_seasons" => 1,
@@ -141,7 +141,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 10,
             "title" => "The Accidental Detective",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "A true-crime enthusiast and a washed up cop facing demotion launch a joint murder investigation to help a mutual friend who is wrongfully charged with murder.",
             "release_year" => "2015",
             "maturity_rating" => "16+",
             "number_of_seasons" => 1,
@@ -154,7 +154,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 11,
             "title" => "OMG! Oh My Girl",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "A chaotic love story of a man and a girl who keep falling for each other in the wrong place at the wrong time over and over as if God enjoys playing tricks on them and won't easily give them a break to be together.",
             "release_year" => "2022",
             "maturity_rating" => "18+",
             "number_of_seasons" => 1,
@@ -167,7 +167,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 12,
             "title" => "Fall in Love at First Kiss",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "Adapted from Japanese manga series 'Itazura na Kiss', about a teen girl who falls in love with her fellow senior since their first day of high school.",
             "release_year" => "2019",
             "maturity_rating" => "13+",
             "number_of_seasons" => 1,
@@ -180,7 +180,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 13,
             "title" => "Miss & Mrs. Cops",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "Taking matters into their own hands, a former detective and a passionate rookie uncover a crime ring profiting off digital sex crimes against women.",
             "release_year" => "2019",
             "maturity_rating" => "16+",
             "number_of_seasons" => 1,
@@ -193,7 +193,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 14,
             "title" => "Dream",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "With hard work and dedication on lock, a group of homeless men trains to compete in the Homeless World Cup, despite a cranky coach.",
             "release_year" => "2023",
             "maturity_rating" => "18+",
             "number_of_seasons" => 1,
@@ -206,7 +206,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 15,
             "title" => "Miraculous: Ladybug & Cat Noir, The Movie",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "Marinette and Adrien, two normal teens, transform into superheroes Ladybug and Cat Noir when an evil threatens their city.",
             "release_year" => "2023",
             "maturity_rating" => "7+",
             "number_of_seasons" => 1,
@@ -219,7 +219,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 16,
             "title" => "Paradise",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "After his wife is forced to give up 40 years of her life as payment for an insurance debt, a man desperately searches for a way to get them back.",
             "release_year" => "2023",
             "maturity_rating" => "18+",
             "number_of_seasons" => 1,
@@ -232,7 +232,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 17,
             "title" => "Happiness for Beginners",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "Helen signs up for a wilderness survival course, a year after getting divorced. She discovers through this experience that sometimes, you have to get really lost in order to find yourself.",
             "release_year" => "2023",
             "maturity_rating" => "18+",
             "number_of_seasons" => 1,
@@ -245,7 +245,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 18,
             "title" => "Extraction 2",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "After barely surviving his grievous wounds from his mission in Dhaka, Bangladesh, Tyler Rake is back, and his team is ready to take on their next mission.",
             "release_year" => "2023",
             "maturity_rating" => "18+",
             "number_of_seasons" => 1,
@@ -258,7 +258,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 19,
             "title" => "The Mother",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "While fleeing from dangerous assailants, an assassin comes out of hiding to protect the daughter she left earlier in life.",
             "release_year" => "2023",
             "maturity_rating" => "16+",
             "number_of_seasons" => 1,
@@ -271,7 +271,7 @@ class DatabaseSeeder extends Seeder
         DB::table("shows")->insert([
             "id" => 20,
             "title" => "They Cloned Tyrone",
-            "description" => "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ratione, velit aliquam voluptatem reiciendis natus beatae quas debitis tenetur error at excepturi, aperiam hic commodi, eum modi cumque qui provident!",
+            "description" => "A series of eerie events thrusts an unlikely trio onto the trail of a nefarious government conspiracy in this pulpy mystery caper.",
             "release_year" => "2023",
             "maturity_rating" => "18+",
             "number_of_seasons" => 1,

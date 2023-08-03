@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('shows', function (Blueprint $table) {
             $table->id();
             $table->string("title");
-            $table->string("description");
+            $table->string("description", 1000);
             $table->year("release_year");
             $table->string("maturity_rating");
             $table->integer("number_of_seasons");

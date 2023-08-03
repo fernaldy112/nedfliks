@@ -22,6 +22,12 @@ export default {
         '4xl': '2260px',
         // => @media (min-width:2260px) {...}
       },
+      aspectRatio: {
+        '2/1': '2 / 1',
+      },
+      height: {
+        'screen-70': '70vh',
+      },
     },
   },
   plugins: [],

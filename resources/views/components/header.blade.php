@@ -19,7 +19,7 @@
             <img src="{{ asset('img/profile-picture.png') }}" alt="Logo" class="sm:w-10 sm:mr-4 w-6 mr-2 rounded-lg">
         </div>
     </header>
-    <div>
+    <div class="">
         {{ $slot }}
     </div>
 </body>

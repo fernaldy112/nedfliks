@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ShowController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,5 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, "homepage"]);
 Route::get('/tv_shows', [HomeController::class, "tv_shows"]);
 Route::get('/movies', [HomeController::class, "movies"]);
+
+Route::get('/show/{show}', [ShowController::class, "show_detail"]);

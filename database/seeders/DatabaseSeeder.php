@@ -281,6 +281,136 @@ class DatabaseSeeder extends Seeder
             "poster_url" => "img/posters/they-cloned-tyrone.jpg",
         ]);
 
+        DB::table("shows")->insert([
+            "id" => 21,
+            "title" => "Ranking of Kings",
+            "description" => "The people of the kingdom look down on the young Prince Bojji, who can neither hear nor speak. They call him 'The Useless Prince' while jeering at his supposed foolishness.",
+            "release_year" => "2023",
+            "maturity_rating" => "16+",
+            "number_of_seasons" => 2,
+            "hours" => 0,
+            "minutes" => 0,
+            "type" => "TV_SHOW",
+            "poster_url" => "img/posters/ranking-of-kings.jpeg",
+        ]);
+
+        DB::table("shows")->insert([
+            "id" => 22,
+            "title" => "BASTARD!! -Heavy Metal, Dark Fantasy-",
+            "description" => "When evil forces threaten to resurrect Anthrasax, the God of Destruction, the Kingdom of Meta-llicana calls on a volatile dark wizard for help.",
+            "release_year" => "2023",
+            "maturity_rating" => "18+",
+            "number_of_seasons" => 2,
+            "hours" => 0,
+            "minutes" => 0,
+            "type" => "TV_SHOW",
+            "poster_url" => "img/posters/bastard.jpg",
+        ]);
+
+        DB::table("shows")->insert([
+            "id" => 23,
+            "title" => "Hunter X Hunter",
+            "description" => "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger.",
+            "release_year" => "2011",
+            "maturity_rating" => "16+",
+            "number_of_seasons" => 6,
+            "hours" => 0,
+            "minutes" => 0,
+            "type" => "TV_SHOW",
+            "poster_url" => "img/posters/hunter-x-hunter.jpg",
+        ]);
+
+        DB::table("shows")->insert([
+            "id" => 24,
+            "title" => "Reincarnated as a Sword",
+            "description" => "A human reincarnated as a sword is picked up by an orphaned cat-girl and becomes her protector, devoting to her quest to evolve.",
+            "release_year" => "2022",
+            "maturity_rating" => "16+",
+            "number_of_seasons" => 1,
+            "hours" => 0,
+            "minutes" => 0,
+            "type" => "TV_SHOW",
+            "poster_url" => "img/posters/reincarnated-as-a-sword.jpg",
+        ]);
+
+        DB::table("shows")->insert([
+            "id" => 25,
+            "title" => "Sword Art Online",
+            "description" => "In the year 2022, thousands of people get trapped in a new virtual MMORPG and the lone wolf player, Kirito, works to escape.",
+            "release_year" => "2012",
+            "maturity_rating" => "18+",
+            "number_of_seasons" => 2,
+            "hours" => 0,
+            "minutes" => 0,
+            "type" => "TV_SHOW",
+            "poster_url" => "img/posters/sword-art-online.jpg",
+        ]);
+
+        DB::table("shows")->insert([
+            "id" => 26,
+            "title" => "Naruto",
+            "description" => "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.",
+            "release_year" => "2002",
+            "maturity_rating" => "16+",
+            "number_of_seasons" => 9,
+            "hours" => 0,
+            "minutes" => 0,
+            "type" => "TV_SHOW",
+            "poster_url" => "img/posters/naruto.jpeg",
+        ]);
+
+        DB::table("shows")->insert([
+            "id" => 27,
+            "title" => "The Seven Deadly Sins",
+            "description" => "The story of the Seven Deadly Sins, a group of warriors who were wrongly accused of a crime they didn't commit and went on a quest to vindicate themselves.",
+            "release_year" => "2014",
+            "maturity_rating" => "16+",
+            "number_of_seasons" => 4,
+            "hours" => 0,
+            "minutes" => 0,
+            "type" => "TV_SHOW",
+            "poster_url" => "img/posters/the-seven-deadly-sins.jpg",
+        ]);
+
+        DB::table("shows")->insert([
+            "id" => 28,
+            "title" => "Dr. Stone",
+            "description" => "Awakened into a world where humanity has been petrified, scientific genius Senku and his brawny friend Taiju use their skills to rebuild civilization.",
+            "release_year" => "2019",
+            "maturity_rating" => "13+",
+            "number_of_seasons" => 3,
+            "hours" => 0,
+            "minutes" => 0,
+            "type" => "TV_SHOW",
+            "poster_url" => "img/posters/dr-stone.jpg",
+        ]);
+
+        DB::table("shows")->insert([
+            "id" => 29,
+            "title" => "The Rising of the Shield Hero",
+            "description" => "A gamer is magically summoned into a parallel universe, where he is chosen as one of four heroes destined to save the world from its prophesied doom.",
+            "release_year" => "2019",
+            "maturity_rating" => "16+",
+            "number_of_seasons" => 2,
+            "hours" => 0,
+            "minutes" => 0,
+            "type" => "TV_SHOW",
+            "poster_url" => "img/posters/shield-hero.jpg",
+        ]);
+
+        DB::table("shows")->insert([
+            "id" => 30,
+            "title" => "My Hero Academia",
+            "description" => "A superhero-admiring boy without any powers enrolls in a prestigious hero academy and learns what it really means to be a hero.",
+            "release_year" => "2016",
+            "maturity_rating" => "16+",
+            "number_of_seasons" => 6,
+            "hours" => 0,
+            "minutes" => 0,
+            "type" => "TV_SHOW",
+            "poster_url" => "img/posters/my-hero-academia.jpg",
+        ]);
+
         DB::table("tags")->insert([
             "id" => 1,
             "name" => "Panda in Action",
@@ -406,6 +536,65 @@ class DatabaseSeeder extends Seeder
             "tag_id" => 2,
         ]);
 
+        DB::table("show_tags")->insert([
+            "show_id" => 21,
+            "tag_id" => 2,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 21,
+            "tag_id" => 3,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 22,
+            "tag_id" => 2,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 22,
+            "tag_id" => 3,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 23,
+            "tag_id" => 3,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 24,
+            "tag_id" => 3,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 25,
+            "tag_id" => 3,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 26,
+            "tag_id" => 3,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 27,
+            "tag_id" => 3,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 28,
+            "tag_id" => 3,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 29,
+            "tag_id" => 3,
+        ]);
+
+        DB::table("show_tags")->insert([
+            "show_id" => 30,
+            "tag_id" => 3,
+        ]);
         
     }
 }

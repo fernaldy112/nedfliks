@@ -24,6 +24,7 @@ export default {
       },
       aspectRatio: {
         '2/1': '2 / 1',
+        '2/3': '2 / 3',
       },
       height: {
         'screen-70': '70vh',

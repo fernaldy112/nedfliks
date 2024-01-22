@@ -4,11 +4,18 @@ export default {
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
+    './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
   ],
   theme: {
     extend: {
       fontFamily: {
         'bebas-neue': ['Bebas Neue', 'sans-serif'],
+      },
+      backgroundColor: {
+        'netflix-red': '#e50914',
+      },
+      textColor: {
+        'netflix-red': '#e50914',
       },
       screens:{
         'mdlg': '860px',

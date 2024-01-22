@@ -15,9 +15,9 @@ class DatabaseSeeder extends Seeder
     {
         DB::table("users")->insert([
             "id" => 1,
-            "username" => "Po",
+            "username" => "po",
             "email" => "po@gmail.com",
-            "password" => "gina",
+            "password" => "$2y$10\$yinNZvxScf3c8Bw/YWZcyOYC.QEFu0aLbnedihsKCBXzi7YGebG/i", // tailung123
             "profile_picture_url" => "img/profile-picture.png",
         ]);
 
@@ -594,6 +594,56 @@ class DatabaseSeeder extends Seeder
         DB::table("show_tags")->insert([
             "show_id" => 30,
             "tag_id" => 3,
+        ]);
+
+        DB::table("my_lists")->insert([
+            "user_id" => 1,
+            "show_id" => 2,
+        ]);
+
+        DB::table("my_lists")->insert([
+            "user_id" => 1,
+            "show_id" => 4,
+        ]);
+
+        DB::table("my_lists")->insert([
+            "user_id" => 1,
+            "show_id" => 6,
+        ]);
+
+        DB::table("my_lists")->insert([
+            "user_id" => 1,
+            "show_id" => 8,
+        ]);
+
+        DB::table("my_lists")->insert([
+            "user_id" => 1,
+            "show_id" => 10,
+        ]);
+
+        DB::table("my_lists")->insert([
+            "user_id" => 1,
+            "show_id" => 12,
+        ]);
+
+        DB::table("my_lists")->insert([
+            "user_id" => 1,
+            "show_id" => 14,
+        ]);
+
+        DB::table("my_lists")->insert([
+            "user_id" => 1,
+            "show_id" => 16,
+        ]);
+
+        DB::table("my_lists")->insert([
+            "user_id" => 1,
+            "show_id" => 18,
+        ]);
+
+        DB::table("my_lists")->insert([
+            "user_id" => 1,
+            "show_id" => 20,
         ]);
         
     }

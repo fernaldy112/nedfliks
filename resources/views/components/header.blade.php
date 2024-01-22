@@ -16,7 +16,9 @@
             </a>
         </div>
         <div>
-            <img src="{{ asset('img/profile-picture.png') }}" alt="Logo" class="sm:w-10 sm:mr-4 w-6 mr-2 rounded-lg">
+            <a href="/profile">
+                <img src="{{ asset('img/profile-picture.png') }}" alt="Logo" class="sm:w-10 sm:mr-4 w-6 mr-2 rounded-lg">
+            </a>
         </div>
     </header>
     <div class="">
